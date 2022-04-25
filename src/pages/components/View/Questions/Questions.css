@@ -1,0 +1,95 @@
+.fqa-container{
+        background-image: url('../../../../assets/bg-imgae/question-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        width: 1238px;
+        margin: 0 auto 100px auto;
+        padding-top: 235px;
+}
+.fqa-section{
+    margin-top: 97px;
+}
+.fqa-subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.fqa-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.fqa-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #C5B5D6;
+    margin-top: 54px;
+}
+
+
+
+
+
+
+
+@media (min-width: 250px) and (max-width: 600px) {
+    .fqa-container {
+        background-image: url('../../../../assets/bg-imgae/question-bg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        width: 100%;
+        margin: 0 auto 100px auto;
+        padding-top: 35px;
+    }
+    
+    .fqa-section {
+        margin-top: 50px;
+    }
+    
+    .fqa-subtitle {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .fqa-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 16px;
+    }
+    
+    .fqa-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        color: #C5B5D6;
+        margin-top: 30px;
+    }
+}

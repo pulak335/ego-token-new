@@ -1,0 +1,30 @@
+.Model-img{
+        width: 710px;
+        height: 525px;
+        background: black !important;
+}
+
+.modal-content{
+    background: rgba(0, 0, 0, 0.575);
+    border: none;
+}
+
+.model-img h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 88px;
+    text-align: center;
+    background: linear-gradient(106.22deg, #0085FF -41.18%, #C15CFF 81.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.model-img button{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 48px;
+}
