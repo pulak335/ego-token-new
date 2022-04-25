@@ -1,15 +1,15 @@
 .footer-bg{
         background-image: url('../../../../assets/bg-imgae/Footer-bg.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
-        height: 90vh;
+        height: 76vh;
         width: 100%;
 }
 .footer-container{
     width: 787px;
     height: 486px;
-    margin: 0 auto;
+    margin:  0 auto;
 }
 .footer-title{
     font-family: 'Poppins';

@@ -23,6 +23,7 @@ const Breakdown = () => {
     return (
         <div className="Breakdown-bg">
             <div className="graph-container">
+                
                 <div className='Breakdown-container' data-aos="fade-up">
                     <div className="title">
                         <div id="tokenomics" className="token-btn d-flex justify-content-center">
