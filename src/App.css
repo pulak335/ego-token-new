@@ -6,7 +6,7 @@
 
 /* #0085FF  #C15CFF */
 body::-webkit-scrollbar {
-  width: 11px;
+  width: 1px;
 }
 
 body {

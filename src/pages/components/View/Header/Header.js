@@ -19,11 +19,13 @@ const Header = () => {
             <div className="container">
                 <div className="header-container">
                         <Navber/> 
+                        
                     <div className="header-title ">
                         
-                        <div className="clock-container">
+                        <div className="clock-container ">
                             <Clock/>
                         </div>
+
                         <h1>A decentralized,<br/> <span>self-sustaining financial</span> organization </h1>
                         <h3>focused on securing investors’ financial freedom. </h3>
                         <div className='d-flex justify-content-center'>

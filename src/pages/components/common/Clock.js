@@ -23,7 +23,8 @@ class Clock extends Component {
 
   render() {
     return (
-      <div className="clock">
+      <div className="clock-wrap">
+           <div className="clock">
         <div
           className="hour_hand"
           style={{
@@ -54,6 +55,7 @@ class Clock extends Component {
         <span className="nine">9</span>
         <span className="ten">10</span>
         <span className="eleven">11</span>
+      </div>
       </div>
     );
   }

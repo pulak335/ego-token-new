@@ -15,7 +15,7 @@ const Breakdown = () => {
 
     useEffect(() => {
     
-    AOS.init({duration:3000});
+    AOS.init({duration:1000});
 
 }, [])
 
@@ -85,7 +85,7 @@ const Breakdown = () => {
                             <h1>9:30 AM - 4:00 PM EST 6:30 AM - 1:00 PM PST</h1>
                             <p className='treding-hour-container-text'>The EGO Token will operate solely during weekdays on New York Stock<br/>Exchange Hours. you can now sleep easy at night knowing that you won’t wake up to a crashed portfolio!</p>
                         </div>
-                        <div className='position-relative'>
+                        <div >
                             <div className="clock-section">
                                 <Clock/>
                             </div>

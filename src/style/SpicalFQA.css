@@ -17,6 +17,7 @@
 img.risk-img {
     height: 71px;
     width: 80px;
+    object-fit: contain;
 }
 .ac-title{
     font-family: 'Poppins';

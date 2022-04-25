@@ -1,15 +1,16 @@
-.Model-img{
-        width: 710px;
-        height: 525px;
-        background: black !important;
+.Model-img {
+    width: 710px;
+    height: 525px;
+    background: black !important;
 }
 
-.modal-content{
-    background: rgba(0, 0, 0, 0.575);
+.modal-content {
+    background: rgb(255 255 255);
     border: none;
+    height: 40vh;
 }
 
-.model-img h1{
+.model-img h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -20,11 +21,19 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    margin: 0px !important;
+    line-height: 11vh;
 }
 
-.model-img button{
-    color: white;
+.model-img button {
+    color: rgb(0, 0, 0);
     background: none;
     border: none;
     font-size: 48px;
+    padding: 0px 15px;
+}
+
+.modal-body {
+    padding: 0rem;
+
 }

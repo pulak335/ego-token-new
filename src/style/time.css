@@ -1,3 +1,7 @@
+.clock-wrap{
+    position: relative;
+    background-color: green;
+}
 .clock {
     width: 300px;
     height: 300px;
@@ -10,7 +14,7 @@
     font-size: 24px;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: -150px;
+    top:175px;
 }
 
 .clock::after {
@@ -122,6 +126,37 @@
     top: 25%;
     left: 10%;
 }
+/* @media (min-width: 2701px) {
+    .clock {
+        margin-top: -30vh;
+    }
+}
+@media  (min-width: 2101px)  and (max-width: 2700px ){
+    .clock {
+        margin-top: -5vh;
+    }
+}
+@media (min-width: 1925px) and (max-width: 2136px) {
+    .clock {
+        margin-top: -350px;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1924px) {
+    .clock {
+        margin-top: -18vh;
+    }
+}
+@media  (min-width: 1023px)  and (max-width: 1440px ){
+    .clock {
+        margin-top: -170px;
+    }
+}
+@media  (min-width: 768px)  and (max-width: 1024px ){
+    .clock {
+        margin-top: -120px;
+    }
+} */
+
 
 /* .count-box-hour-text-count {
     padding: 15px 23px;

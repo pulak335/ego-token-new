@@ -8,7 +8,7 @@
 .Breakdown-container{
     width: 1296px;
     margin: auto;
-    margin-top: 235px;
+    margin-top: 435px;
 }
 .Breakdown-container{
     background-image: url('../../../../assets/bg-imgae/Colors-chart-bg.png');
@@ -72,6 +72,11 @@
         width: 100%;
 } */
 .treding-container{
+    /* background-image: url('../../../../assets/bg-imgae/Ellipse-bg-05.png'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    height: 100%;
     width: 1290px;
     margin:0 auto 183px auto;
 }
@@ -86,8 +91,8 @@
 .icon-box:hover {
     margin: 0px 0;
     border: 0px solid rgba(78, 78, 78, 0.5);
-    box-shadow: 0px 0px 30px #4444dd;
-    border-radius: 0;
+    box-shadow: 0px 0px 20px #9292eb98;
+    border-radius: 15px;
     transition: 0.5s;
 }
 .treding-text h3{
@@ -117,6 +122,7 @@
     background-position: bottom left;
     background-size: contain;
     padding-bottom: 210px;
+    margin-top: 530px;
 
 }
 
@@ -133,7 +139,7 @@
     line-height: 70px;
     text-align: center;
     color: #F2F2F2;
-    margin-top: 170px;
+    margin-top: 190px;
 }
 
 .treding-hour-container h1{
@@ -202,7 +208,7 @@
 
 .time-shedule-container{
         width: 703px;
-        margin: 0 auto;
+        margin: 0 auto 520px;
 }
 .time-1{
     font-family: 'Poppins';
@@ -213,8 +219,9 @@
     text-align: center;
     color: #FFFFFF;
     padding: 32px 246px;
-    background: linear-gradient(97.6deg, rgba(59, 71, 204, 0.6) 44.12%, rgba(0, 102, 254, 0.288) 73.82%);
+    background: linear-gradient(91.39deg, rgba(23, 116, 255, 0.6) 0.9%, rgba(0, 102, 254, 0.288) 100%);
     backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
     border-radius: 8px;
     margin-top: 80px;
 }
@@ -228,7 +235,7 @@
     text-align: center;
     color: #FFFFFF;
     padding: 32px 243px;
-    background: linear-gradient(97.6deg, rgba(59, 71, 204, 0.6) 44.12%, rgba(0, 102, 254, 0.288) 73.82%);
+    background: linear-gradient(91.39deg, rgba(23, 116, 255, 0.6) 0.9%, rgba(0, 102, 254, 0.288) 100%);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     margin-top: 40px;
@@ -242,7 +249,7 @@
     text-align: center;
     color: #FFFFFF;
     padding: 32px 126px;
-    background: linear-gradient(97.6deg, rgba(59, 71, 204, 0.6) 44.12%, rgba(0, 102, 254, 0.288) 73.82%);
+    background: linear-gradient(91.39deg, rgba(23, 116, 255, 0.6) 0.9%, rgba(0, 102, 254, 0.288) 100%);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     margin-top: 40px;
@@ -252,8 +259,29 @@
 
 
 
+/* 
 
+@media (min-width: 2561px)  {
+.clock {
+    margin-top: -30vh;
+}
+}
+@media (min-width: 2401px) and (max-width: 2560px) {
+.clock {
+    margin-top: -30vh;
+}
+}
+@media (min-width: 2135px) and (max-width: 2400px) {
+.clock {
+    margin-top: -20vh;
+}
+}
 
+@media (min-width: 1920px) and (max-width: 2134px) {
+.clock {
+    margin-top: -10vh;
+}
+} */
 
 
 

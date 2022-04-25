@@ -73,7 +73,7 @@ const Roadmap = () => {
                                     <li className='mt-5'>DeFi card service</li>
                                     <li>Beta EGO trading system launch</li>
                                     <li>Bonding protocols (proposed)</li>
-                                    <li>Lending and Borrowing Protocols(proposed)</li>
+                                    <li>Lending and Borrowing Protocols (proposed)</li>
                                     <li>750 holders</li>
                                     <li>2000 discord members</li>
                                 </ul>
@@ -94,7 +94,7 @@ const Roadmap = () => {
                             </li>
                             <i onClick={()=>setToggle3(!toggle3)} style= {{cursor:'pointer'}}  class={`fa-solid fa-angle-right ${toggle3 ? 'rotateIcon' : ''}`}></i>
                             </div>
-                            <li>Investor EGO trading system launch(proposed)</li>
+                            <li>Investor EGO trading system launch (proposed)</li>
                             <div style={{marginTop: "14px"}} className='d-flex justify-content-between'>
                             <li>Wen Freedom Foundation
                                 <ul className={`subToggle${toggle4? 'open' : ''}`}>

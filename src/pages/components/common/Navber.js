@@ -40,7 +40,7 @@ const Navber = () => {
                             </li>
                         </ul>
 
-                        <a className="buy-btn me-2" type="submit" href='https://pancakeswap.finance/' target="blank"><img src={Clip} alt="" srcSet="" /> Buy EGO</a>
+                        <a className="buy-btn me-2" type="submit" href='https://pancakeswap.finance/swap' target="blank">Buy EGO</a>
 
 
                     </div>

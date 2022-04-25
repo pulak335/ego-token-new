@@ -1,12 +1,23 @@
-import React,{useEffect} from 'react';
+import React,{useEffect,useRef,useState} from 'react';
 import './Pancakeswap.css';
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import Clip from '../../../../assets/icons/clip 16.svg'
 
 import Analysis from '../../../../assets/data-analysis.gif';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
+
+
 const Pancakeswap = () => {
+
+
+  
+ 
+
 
     useEffect(() => {
     
@@ -20,8 +31,8 @@ const Pancakeswap = () => {
                 <div className='swap'>
                     <h3 className='swap-subtitle'>Buy EGO on</h3>
                     <h1 className='swap-title'>Pancakeswap</h1>
-                    <div className='swap-text d-flex align-items-center'>
-                        <p className='mt-3 me-4'>Pancakeswap</p>
+                    <div  className='swap-text d-flex align-items-center'>
+                        <p className='mt-4 me-4'>Contact Us</p>
                         <div className="icon-social d-flex justify-content-between">
                             <a href="https://discord.com/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-discord"></i>
@@ -35,7 +46,21 @@ const Pancakeswap = () => {
                         </div>
                     </div>
                     <p className='swap-text'>or,</p>
-                    <p className='swap-text'>0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa</p>
+
+                     
+       <div className='d-flex align-items-center'>
+           <CopyToClipboard
+     text="0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa"
+     onCopy={() => alert("Copied")}>
+           <img style={{cursor:'pointer',height: '20px',
+    display: 'inline-block',
+    marginRight: '10px'}} src={Clip} alt="" srcSet="" />
+           </CopyToClipboard> 
+           <p style={{margin:0}} className='swap-text' >  0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa</p>
+       </div>
+     
+
+                    
                 </div>
 
                 <div className='swap-img'>
