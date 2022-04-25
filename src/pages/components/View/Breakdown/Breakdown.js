@@ -1,12 +1,8 @@
 import React,{useEffect} from 'react';
 import './Breakdown.css';
-// import '../../../../style/time.css'
-
-// import Time from '../../common/Time'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// treding icon import 
 
 import Treding1 from "../../../../assets/cripto-walltet-icon/Ellipse 014.png";
 import Treding2 from "../../../../assets/cripto-walltet-icon/Ellipse 015.png";
