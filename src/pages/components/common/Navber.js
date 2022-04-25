@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import '../../../style/nav.css';
-
+import Clip from '../../../assets/icons/clip 16.svg'
 import Logo from '../../../assets/Logo/ego-logo.png'
 import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
 
@@ -40,7 +40,7 @@ const Navber = () => {
                             </li>
                         </ul>
 
-                        <a className="buy-btn me-2" type="submit" href='https://pancakeswap.finance/' target="blank">Buy EGO</a>
+                        <a className="buy-btn me-2" type="submit" href='https://pancakeswap.finance/' target="blank"><img src={Clip} alt="" srcSet="" /> Buy EGO</a>
 
 
                     </div>
