@@ -23,7 +23,7 @@ const Breakdown = () => {
     return (
         <div className="Breakdown-bg">
             <div className="graph-container">
-                
+
                 <div className='Breakdown-container' data-aos="fade-up">
                     <div className="title">
                         <div id="tokenomics" className="token-btn d-flex justify-content-center">
@@ -81,15 +81,22 @@ const Breakdown = () => {
                                 <h2 className='time-2'>30 DAYS = 15%</h2>
                                 <h2 className='time-3'>90 DAYS = 30% every 30 days</h2>
                             </div>
+                            
                         <div className="treding-hour-container" data-aos="fade-up">
                             <h2>Trending Hours</h2>
                             <h1>9:30 AM - 4:00 PM EST 6:30 AM - 1:00 PM PST</h1>
                             <p className='treding-hour-container-text'>The EGO Token will operate solely during weekdays on New York Stock<br/>Exchange Hours. you can now sleep easy at night knowing that you won’t wake up to a crashed portfolio!</p>
                         </div>
-                        <div >
-                            <div className="clock-section">
+
+                        <div className="d-none clock-section">
                                 <Clock/>
                             </div>
+
+                            
+                        
+                            
+                            
+                        <div >
                         </div>
                         </div>
                     </div>

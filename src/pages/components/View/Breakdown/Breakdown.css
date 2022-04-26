@@ -36,18 +36,11 @@
     color: #F2F2F2;
 }
 
-.chart-container {
-    padding-top: 115px;
-}
-.chart-view{
-    width: 525px;
-    height: 525px;
-    margin: auto;
-    padding-bottom: 350px;
-}
 
 .token-btn{
     margin-top: 190px;
+    display: flex;
+    justify-self: center;
 }
 
 .token-btn button{
@@ -126,9 +119,6 @@
 
 }
 
-.clock-section{
-        margin-top: 360px;
-}
 
 
 .treding-hour-container h2{
@@ -325,19 +315,8 @@
             color: #F2F2F2;
         }
         
-        .chart-container {
-            padding-top: 10px;
-        }
-        
-        .chart-view {
-            width: 80%;
-            height: 80%;
-            margin: auto;
-            padding-bottom: 35px;
-        }
-        
         .token-btn {
-            margin-top: 30px;
+            margin-top: 20px;
         }
         
         .token-btn button {
@@ -364,7 +343,7 @@
         }
         
         .treding-container {
-            width: 100%;
+            width: 300px;
             margin: 0 auto;
         }
         
@@ -379,7 +358,6 @@
         
         .icon-box img {
             margin-top: 10px;
-            margin: 0 auto;
         }
         
         .treding-text h3 {
@@ -405,7 +383,7 @@
         .treding-icon{
             display: flex;
             flex-direction: column;
-            margin: auto;
+            margin:0 auto;
         }
         
 
@@ -462,6 +440,10 @@
             text-transform: uppercase;
             color: #FFFFFF;
             text-align: center;
+        }
+        .btn-base{
+            margin: 63px auto 0 auto;
+            padding-bottom: 20px;
         }
 }
 
