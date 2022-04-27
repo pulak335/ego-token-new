@@ -27,6 +27,8 @@ const Roadmap = () => {
             <h1>Our Strategy & Project Plan</h1>
                 <div className='d-flex justify-contain-between'>
 
+
+{/* card start here  */}
                 <div className='card-1'>
                         <div className="road-card-1">
                             <h1>Q<span>1</span></h1>
@@ -113,6 +115,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
+                
         </div>
     </div>
     );

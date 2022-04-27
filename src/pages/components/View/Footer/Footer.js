@@ -24,19 +24,19 @@ const Footer = () => {
                 <p className='footer-text'>Don't hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally</p>
 
                 <div className="footer-social-icon d-flex justify-content-between">
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-facebook-f social-icon"></i>
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-twitter social-icon"></i>
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-instagram social-icon"></i>
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">  
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">  
                         <i className="fa-brands fa-linkedin-in social-icon"></i>
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-youtube social-icon"></i>
                     </a>
                 </div>

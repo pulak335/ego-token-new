@@ -14,10 +14,10 @@ const Home = () => {
         <div className='home-container'>
             <Header/>
             <Breakdown/>
-            <Roadmap/>
+            <Roadmap/> 
             <Specialities/>
             <Questions/>
-            <Pancakeswap/>
+            <Pancakeswap/> 
             <Footer/>
         </div>
     );

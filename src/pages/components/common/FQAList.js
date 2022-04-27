@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../style/FQAList.css';
 const FQAList = () => {
     return (
-        <div>
-            <div id="accordionExample">
+        <div className='row'>
+            <div id="accordionExample" className='col-12'>
                 <div className="accordion-item-costom">
                     <h2 className="accordion-header-costom d-flex justify-content-between" id="headingOne">
                         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

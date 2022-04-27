@@ -1,4 +1,4 @@
-import React,{useEffect,useRef,useState} from 'react';
+import React,{useEffect} from 'react';
 import './Pancakeswap.css';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Clip from '../../../../assets/icons/clip 16.svg'
@@ -27,8 +27,8 @@ const Pancakeswap = () => {
 
     return (
         <div className='pancakeswap-bg'>
-            <div className='d-flex justify-content-between pancakeswap-flex' data-aos="fade-up">
-                <div className='swap'>
+            <div className='row' data-aos="fade-up">
+                <div className='swap col-6 col-md-6 col-sm-12 col-xs-12'>
                     <h3 className='swap-subtitle'>Buy EGO on</h3>
                     <h1 className='swap-title'>Pancakeswap</h1>
                     <div  className='swap-text d-flex align-items-center'>
@@ -48,26 +48,23 @@ const Pancakeswap = () => {
                     <p className='swap-text'>or,</p>
 
                      
-       <div className='d-flex align-items-center'>
-           <CopyToClipboard
-     text="0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa"
-     onCopy={() => alert("Copied")}>
-           <img style={{cursor:'pointer',height: '20px',
-    display: 'inline-block',
-    marginRight: '10px'}} src={Clip} alt="" srcSet="" />
-           </CopyToClipboard> 
-           <p style={{margin:0}} className='swap-text' >  0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa</p>
-       </div>
-     
+                    <div className='d-flex align-items-center'>
+                        <CopyToClipboard
+                    text="0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa"
+                    onCopy={() => alert("Copied")}>
+                        <img style={{cursor:'pointer',height: '20px',
+                    display: 'inline-block',
+                    marginRight: '10px'}} src={Clip} alt="" srcSet="" />
+                        </CopyToClipboard> 
+                        <p style={{margin:0}} className='swap-text' >  0x1DF2C6DF4d4E7F3188487F4515587c5E8b75dbfa</p>
+                    </div>              
+                    </div>
 
-                    
-                </div>
-
-                <div className='swap-img'>
-                    <img src={Analysis} alt="" srcSet="" />
-                </div>
-            </div>
-        </div>
+                    <div className='swap-img swap col-6 col-md-6 col-sm-12 col-xs-12'>
+                        <img src={Analysis} alt="" srcSet="" />
+                        </div>
+                    </div>
+    </div>
     );
 };
 

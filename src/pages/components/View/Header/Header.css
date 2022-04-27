@@ -11,7 +11,17 @@
         margin: 0 auto;
 
 }
-
+.trading-text{
+    margin-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.835);
+}
 .clock-container{
     padding-bottom: 240px ;
    margin-bottom: 90px ;
@@ -22,7 +32,7 @@
     margin: 0 auto;
 }
 .header-title>h1{
-    margin-top: 120px;
+    margin-top: 40px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -56,6 +66,7 @@
 } */
 
 .btn-base{
+    text-decoration: none;
     position: relative;
     border:none;
     background: none;
@@ -76,6 +87,7 @@
 .btn-base:hover{
     background: linear-gradient(151.29deg, #255FF5 0.28%, #C767B3 122.93%);
     font-size: 22px;
+    color: #FFFFFF;
 }
 
 
@@ -108,27 +120,6 @@ responsive for mobile view
 .header-container {
     max-width: 100%;
 }
-
-/* .time-box {
-    margin-top: 5px;
-}
-
-.time-section {
-    margin: auto;
-    width: 100%;
-    margin-top: 18px;
-}
-
-.time-section h4 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #FFFFFF;
-} */
 
 .header-title {
     width: 100%;
@@ -169,7 +160,6 @@ responsive for mobile view
 
 .btn-base {
     margin: 63px auto 0 auto;
-    padding-bottom: 208px;
 }
 
 .btn-base button {
@@ -292,7 +282,6 @@ responsive for mobile view
 
     .btn-base {
         margin: 63px auto 0 auto;
-        padding-bottom: 208px;
     }
 
     .btn-base button {
